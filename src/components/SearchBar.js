@@ -1,6 +1,8 @@
 import React from "react";
 
 class SearchBar extends React.Component {
+  //state for term
+  
   state = { term: "" };
 
   onInputChange = event => {
